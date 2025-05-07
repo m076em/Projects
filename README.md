@@ -8,3 +8,12 @@ Hey There, this repo hosts a collection of some of the projects I worked on duri
 - Build, train and validate the CNN using the tensorflow Python library on the augmneted dataset.
 - Test the trained CNN on the testing dataset.
 - Upload the CNN weights to Kaggle to be deployed and tested on a kaggle dataset
+## ECE4076 Labs - Computer Vision applications
+The labs go through many computer vision applications, you can find detailed descriptions of what each lab is about in the .pdf files in each lab folder
+## ECE4179 Labs - Neural Networks
+The labs go through various applications of Neural Networks, and dives deep into the concepts from which Neural Networks originate. Similar to ECE4076 Labs, all the lab descriptions can be found in the individual folders.
+## ECE4179 Assignment - Many Neural Networks applications and concepts
+- Designing a Denoising Auto-encoder (DAE) to remove noise from images of faces
+- Perfrom image classification on a GTSRB (German Traffic Sign Recognition Benchmark) dataset
+- Perform occlusion sensitivity analysis on a trained CNN model, to determine which parts of images contribute to the classification decision the most - This one is very interesting
+- Training a Neural Network with a new dataset and Transfer Learning
