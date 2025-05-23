@@ -17,3 +17,5 @@ The labs go through various applications of Neural Networks, and dives deep into
 - Perfrom image classification on a GTSRB (German Traffic Sign Recognition Benchmark) dataset
 - Perform occlusion sensitivity analysis on a trained CNN model, to determine which parts of images contribute to the classification decision the most - This one is very interesting
 - Training a Neural Network with a new dataset and Transfer Learning
+## JS Calculator
+Since I never used JS before, I decided to give it a go and build a simple app, and I couldn't think of something simpler than a calculator. So I built a simple calculator (onle addition and multiplication operations). Eventually I plan to add more features such as trigonometric functions, powers and logarithms, and potentially even calculus
