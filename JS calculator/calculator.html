@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Best Calculator</title>
+    <script src="calculator.js"></script>
+    <style>
+        .parent_layout {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items:stretch;
+        }
+        .main_button_layout {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+        .vertical_container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .horizontal_container {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 10px;
+        }
+        .regular_button {
+            width: 60px;
+            height: 60px;
+            font-size: 20px;
+            font-family: sans-serif;
+            background-color: #c0c0c0;
+        }
+        .regular_button:hover {
+            background-color: #808080;
+        }
+        .equal_button {
+            width: 60px;
+            height: 60px;
+            font-size: 20px;
+            font-family: sans-serif;
+            background-color: #76cd26;
+        }
+        .equal_button:hover {
+            background-color: #47a418;
+        }
+
+
+      #display {
+      margin-top: 20px;
+      font-size: 24px;
+      padding: 10px;
+      width: 200px;
+
+    }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="parent_layout">
+        <input id="display" readonly />
+        <div class="main_button_layout">
+            <div class="vertical_container">
+                <div class="horizontal_container">
+                    <button class="regular_button" onclick="appendToDisplay(this)">9</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">8</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">7</button>
+                </div>
+                <div class="horizontal_container">
+                    <button class="regular_button" onclick="appendToDisplay(this)">6</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">5</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">4</button>
+                </div>
+                <div class="horizontal_container">
+                    <button class="regular_button" onclick="appendToDisplay(this)">3</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">2</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">1</button>
+                </div>
+                <div class="horizontal_container">
+                    <button class="equal_button" onclick="equal()">=</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">.</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">0</button>
+                </div>
+            </div>
+            <div class="vertical_container">
+                    <button class="regular_button" onclick="appendToDisplay(this)">÷</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">x</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">-</button>
+                    <button class="regular_button" onclick="appendToDisplay(this)">+</button>
+                    
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
